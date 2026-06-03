@@ -1,1 +1,25 @@
-body{background-color: bisque;}
+:root{
+    --cor-primaria:#3498db;
+    --cor-secundaria:#2c3e50;
+    --espacamento:16px;
+    }
+
+    /* Reset Simple */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        font-family: Arial,sans-serif;
+    }
+
+    .cabecalho{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: var(--espacamento);
+        background:var(--cor-primaria);
+        color: white;
+    }   
