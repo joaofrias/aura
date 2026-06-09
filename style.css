@@ -23,3 +23,17 @@
         background:var(--cor-primaria);
         color: white;
     }   
+
+    /*Grid e Cards*/
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap:var(--espacamento);
+        padding:var(--espacamento);  
+    }
+
+    .card{
+        background:ghostwhite;
+        padding: 20px;
+        text-align: center;
+    }
