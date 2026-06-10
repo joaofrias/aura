@@ -37,3 +37,27 @@
         padding: 20px;
         text-align: center;
     }
+/*Formulário*/
+.formulario{
+    padding: var(--espacamento);
+}
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button{
+    background: var(--cor-primaria);
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.rodape{
+    text-align: center;
+    padding: 10px;
+    background: var(--cor-secundaria);
+    color: white;
+}
+
